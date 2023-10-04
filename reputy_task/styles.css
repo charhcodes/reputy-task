@@ -1,0 +1,229 @@
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    background: linear-gradient(270deg, #ECE9E6 0%, rgba(236, 233, 230, 0.00) 71.71%);
+}
+
+
+#iphone1, #iphone2 {
+    width: 18.125rem;
+    height: 36.625rem; 
+    max-width: 50%; 
+}
+
+#iphone2 {
+    transform: translate(-30%, 10%);
+}
+
+
+.phone-container {
+    display: flex;
+    align-items: center; /* Vertically center-align the images */
+    margin-right: auto; /* Push the images to the left */
+    padding-left: 15rem;
+}
+
+/* Align all elements to the right side */
+.right-side {
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 20px; 
+    box-sizing: border-box;
+    padding-left: 5.25rem;
+}
+
+#page-divider {
+    width: 1px; /* Adjust the width of the divider */
+    background-color: #ccc; /* Set the background color to simulate a border */
+    height: 70vh;
+    position: fixed;
+    top: 50%; /* Position vertically at 50% of the viewport */
+    left: 50%; /* Position horizontally at 50% of the viewport */
+    transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+}
+
+/* MAIN TEXT */
+.maintext-container {
+    text-align: right;
+    width: 100%; /* Take full width within .right-side container */
+}
+
+
+h1 {
+    font-size: 3.5rem;
+    font-style: normal;
+    line-height: 4.75rem;
+    margin: 0; 
+    text-align: left;
+}
+
+/* Additional styles for other elements */
+.instruction-container,
+.txtbars-container,
+.submit-container,
+.logintxt-container {
+    text-align: left;
+    width: 100%; 
+    margin-top: 1rem;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 4.75rem;
+}
+
+.txtbars-container input {
+    margin-bottom: 0.3rem; /* Adjust the margin-right value to control the spacing */
+}
+
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    outline: 2px #3D3D3D;
+    display: flex;
+    width: 80%;
+    height: 3rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.logintxt-container p {
+    text-align: center;
+    width: 80%;
+}
+
+.submit-container button {
+    color: white;
+    width: 80%;
+    margin-right: 0.8rem; 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5rem 1.5rem;
+    background-color: black;
+    border-radius: 50px;
+    cursor: pointer; 
+    outline: none; 
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    transition: transform 0.2s;
+}
+
+.submit-container button:hover {
+    transform: scale(1.2); 
+    color: #82B1FF;
+}
+
+
+/* LOGO */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoimg {
+    width: 3.6875rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    /* transform: scale(200%); */
+}
+
+#logotxt {
+    transform: translate(-55%, 10%);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+}
+
+.logo-container img {
+    height: 1.5em;
+    margin-right: 10px;
+}
+
+/* NAVIGATION BAR */
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 1.5rem;
+    padding: 2.5rem;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+#divider {
+    border-right: 1px solid #ccc;
+    height: 1.5em;
+    margin-right: 1.7em;
+}
+
+.navbar li {
+    font-size: 1.5em;
+    margin-right: 1.7em;
+    line-height: 2.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 10px;
+}
+
+/* .navbar a:hover {
+    color: red;
+} */
+
+
+.navbuttons button {
+    margin-right: 0.8rem; 
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #000; 
+    border-radius: 50px; 
+    outline: none; 
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    /* transition: transform 0.2s; */
+}
+
+.navbuttons button:last-child {
+    margin-right: 0;
+}
+
+.navbuttons {
+    color: black;
+}
+
+.create-acc {
+    color: white;
+    background-color: black;
+}
+
+/* .navbuttons button:hover {
+    transform: scale(1.2); 
+    color: #82B1FF;
+
+} */
+
