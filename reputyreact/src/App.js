@@ -28,11 +28,11 @@ function App() {
             </div>
         </div>
     </div>
-
-    <div className="phone-container">
-        <img src="imports/iphone1.png" id="iphone1"/>
-        <img src="imports/iphone2.png" id="iphone2"/>
-    </div>
+    <div className="wrapper">
+        <div className="phone-container">
+            <img src="imports/iphone1.png" id="iphone1"/>
+            <img src="imports/iphone2.png" id="iphone2"/>
+        </div>
     
     <div className="right-side">
 
@@ -84,6 +84,7 @@ function App() {
         </div>
     </div>
     <div/>
+    </div>
   </div>
   );
 }
